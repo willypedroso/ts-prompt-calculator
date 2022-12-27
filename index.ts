@@ -46,30 +46,30 @@ console.log('---')
 console.log('---')
 console.log('---')
 
-let value1 = +keyboard('Type the first value: ')
+let value1: number = +keyboard('Type the first value: ')
 while(isNaN(value1)){
     console.log('Invalid input. Try again.')
     value1 = +keyboard('Type the first value: ')
 }
 
-const opValidation = ['+', '-', '/', '*']
-let operator = keyboard('Type the operator (+, -, /, *): ')
+const opValidation: string[] = ['+', '-', '/', '*']
+let operator: string = keyboard('Type the operator (+, -, /, *): ')
 while(!opValidation.includes(operator)){
     console.log('Invalid operator. Try again.')
     operator = keyboard('Type the operator (+, -, /, *): ')
 }
 
-let value2 = +keyboard('Type the second value: ')
+let value2: number = +keyboard('Type the second value: ')
 while(isNaN(value2)){
     console.log('Invalid input. Try again.')
     value2 = +keyboard('Type the second value: ')
 }
 
-let result = 0
+let result: number = 0
 
 calculate(value1, value2, operator)
 
-let option = '1'
+let option: string = '1'
 while(option === '1' || option === '2'){
     console.log('---')
     console.log('---')
