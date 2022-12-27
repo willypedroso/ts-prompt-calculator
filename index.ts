@@ -17,17 +17,10 @@ function calculate(v1: number, v2: number, op: string){
             break;
     }
 
-    if(isNaN(result)){
-        console.log('---')
-        console.log('---')
-        console.log('---')
-        console.log('Invalid Input. Try again...')
-    } else {
         console.log('---')
         console.log('---')
         console.log('---')
         console.log('The result is: ', result)
-    }
 }
 
 console.log('****** ********************* ******')
@@ -52,6 +45,7 @@ console.log('***** *********************** *****')
 console.log('---')
 console.log('---')
 console.log('---')
+
 let value1 = +keyboard('Type the first value: ')
 while(isNaN(value1)){
     console.log('Invalid input. Try again.')
