@@ -1,5 +1,7 @@
 # Typescript Prompt Calculator
 
+<img src="ts-prompt-calculator-image.png" height="350">
+
 A simple prompt calculator built entirely in Typescript.
 
 ___
