@@ -1,13 +1,13 @@
 {
-  "name": "ts-pure-calculator",
+  "name": "ts-prompt-calculator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple prompt calculator built entirely in Typescript.",
   "main": "index.js",
   "scripts": {
     "start": "ts-node index.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Will Pedroso",
   "license": "ISC",
   "devDependencies": {
     "@types/prompt-sync": "^4.2.0",
