@@ -8,7 +8,7 @@ ___
 
 ## Instructions to use:
 
-Clone de repository:
+Clone the repository:
 ```
 git clone https://github.com/willypedroso/ts-prompt-calculator
 ```
