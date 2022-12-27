@@ -1,0 +1,18 @@
+{
+  "name": "ts-pure-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/prompt-sync": "^4.2.0",
+    "prompt-sync": "^4.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
